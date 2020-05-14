@@ -43,7 +43,14 @@ With the best model from Phase 3, train on different augmentation intensities:
 ![](./screenshots/bestAugGraph.png)
 
 ## Phase 5: Effects Of Regularization
-I experimented with different location of Dropout() and BatchNormalization(). These are the optimal locations for both cases:
+I experimented with different location of Dropout() and BatchNormalization(). 
+### Best BatchNorm Location:
 ![Best BatchNorm Location](./screenshots/bestBatchNorm.png)
+
+Accuracy: 91.33%
+
+### Best Dropout Location:
 ![Best Dropout Location](./screenshots/bestDropout.png)
+
+Accuracy: 92.67%
 
