@@ -60,3 +60,10 @@ Use fine-tuning to train pretrained models to get the best performance. Check ho
 ![](./screenshots/allModelPerf.png)
 
 **Note:** My model performance on this graph is 90.67% because instead of importing previously obtained weights I retrained the "best" architecture from Phase 3 and this was the score.
+
+## Common Missmatched:
+![](./screenshots/mismatched1.png)
+![](./screenshots/mismatched2.png)
+![](./screenshots/mismatched3.png)
+![](./screenshots/mismatched4.png)
+![](./screenshots/mismatched5.png)
