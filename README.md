@@ -54,3 +54,9 @@ Accuracy: 91.33%
 
 Accuracy: 92.67%
 
+## Phase 6: Using Pretrained Model
+Use fine-tuning to train pretrained models to get the best performance. Check how it measures up again the model we've developed so far. For best results, I found that unfreezing the top layers of the convolutional base return the best accuracy score.
+
+![](./screenshots/allModelPerf.png)
+
+**Note:** My model performance on this graph is 90.67% because instead of importing previously obtained weights I retrained the "best" architecture from Phase 3 and this was the score.
