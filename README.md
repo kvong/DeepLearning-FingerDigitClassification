@@ -31,8 +31,7 @@ From the graph, it might seem that the Many Layer model overfit faster but the m
 
 ## Phase 3: Split and Evaluate
 Start training, and find the a good architecture:
-* How to build an architecture:
-    I started off with a basic architecture, layers are gradually added, once I start to notice that the accuracy start to decrease, I start working on the models with the best accuracy so far and start fine tuning it.
+* How to build an architecture: I started off with a basic architecture, layers are gradually added, once I start to notice that the accuracy start to decrease, I start working on the models with the best accuracy so far and start fine tuning it.
 
 ![](./screenshots/bestModel.png)
 ![](./screenshots/bestModelLCurve.png)
@@ -42,3 +41,9 @@ Find the optimal augmentation for the input data to ensure that the model gets t
 
 With the best model from Phase 3, train on different augmentation intensities:
 ![](./screenshots/bestAugGraph.png)
+
+## Phase 5: Effects Of Regularization
+I experimented with different location of Dropout() and BatchNormalization(). These are the optimal locations for both cases:
+![Best BatchNorm Location](./screenshots/bestBatchNorm.png)
+![Best Dropout Location](./screenshots/bestDropout.png)
+
