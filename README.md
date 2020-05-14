@@ -36,3 +36,9 @@ Start training, and find the a good architecture:
 
 ![](./screenshots/bestModel.png)
 ![](./screenshots/bestModelLCurve.png)
+
+## Phase 4: Effects Of Augmentation
+Find the optimal augmentation for the input data to ensure that the model gets the most out of learning. The result shows that augmentation is best around 10-20%, and too much augmentation will completely invalidate the data.
+
+With the best model from Phase 3, train on different augmentation intensities:
+![](./screenshots/bestAugGraph.png)
