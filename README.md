@@ -5,10 +5,10 @@
 ## Phase 1: Gathering Data
 
 ### Training Images:
-![](./screenshot/sampleTrainImg.png)
+![](./screenshots/sampleTrainImg.png)
 
 ### Test Images:
-![](./screenshot/sampleTestImg.png)
+![](./screenshots/sampleTestImg.png)
 
 ### Data Distribution and Base Accuracy:
-![](./screenshot/distGraph.png)
+![](./screenshots/distGraph.png)
